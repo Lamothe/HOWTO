@@ -26,6 +26,6 @@ git pull
 ## Run
 ```
 cd ~/Applications/ComfyUI
-source .venve/bin/activate
+source .venv/bin/activate
 python main.py
 ```
