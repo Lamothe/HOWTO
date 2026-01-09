@@ -5,6 +5,7 @@
 mkdir -p ~/Applications
 cd ~/Applications
 git clone https://github.com/comfyanonymous/ComfyUI
+cd ComfyUI
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
