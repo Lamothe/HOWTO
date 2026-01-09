@@ -20,7 +20,7 @@ If you see "/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory", ign
 
 ## Update
 ```
-cd ~/Applications
+cd ~/Applications/ComfyUI
 git pull
 ```
 
