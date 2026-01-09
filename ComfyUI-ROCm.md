@@ -16,6 +16,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 python3 -c 'import torch; print(f"Torch available: {torch.cuda.is_available()}"); print(f"Torch version: {torch.__version__}")'
 ```
+If you see "/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory", ignore it.
 
 ## Update
 ```
@@ -24,5 +25,7 @@ git pull
 
 ## Run
 ```
+cd ~/Applications/ComfyUI
+source .venve/bin/activate
 python main.py
 ```
