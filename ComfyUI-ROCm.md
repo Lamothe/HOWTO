@@ -28,5 +28,5 @@ git pull
 ```
 cd ~/Applications/ComfyUI
 source .venv/bin/activate
-python main.py
+python main.py --listen 0.0.0.0
 ```
