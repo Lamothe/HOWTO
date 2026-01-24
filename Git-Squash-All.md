@@ -1,0 +1,4 @@
+```
+git reset $(git commit-tree "HEAD^{tree}" -m "Initial commit")
+git push --force
+```
